@@ -56,7 +56,7 @@ const ContactForm = () => {
     message += `\n⏰ *Enviado em:* ${new Date().toLocaleString("pt-BR")}`;
 
     // WhatsApp number (replace with actual business number)
-    const whatsappNumber = "5521973402054";
+    const whatsappNumber = "5521xxxxxxxxx";
     const whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
       message
     )}`;
